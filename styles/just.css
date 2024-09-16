@@ -1,0 +1,29 @@
+.just {
+    margin-top: 40px;
+    background: url(../img/jdi.png) no-repeat center top / cover;
+    height: 557px;
+    position: relative;
+}
+
+.just__wrap-position {
+    position: absolute;
+    left: 50px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+    height: 154px;  
+    background: #BABABA80;
+
+}
+
+.just__wrap-text,
+.just__wrap-text2 {
+    font-family: 'roboto';
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}

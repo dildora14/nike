@@ -1,0 +1,29 @@
+.banner {
+    background: url(../img/banner.png) no-repeat center / cover;
+    height: 565px;
+}
+
+.banner__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.banner__wrap-title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner__wrap-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner__wrap-text span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
